@@ -1,0 +1,228 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+main{
+    margin: 8em 2em;
+
+}
+/* Estilos del header */
+
+a {
+    color: #0077c0;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    text-decoration: underline;
+    }
+    
+    header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    }
+    
+    .logo {
+    display: inline-block;
+    margin-left: 30px;
+    }
+    
+    nav {
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-left: 20px;
+    }
+    
+    nav a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+    
+    nav a:hover {
+    color: #0077c0;
+    }
+/* Estilos de la sección principal */
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    }
+    
+    .column {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    }
+    
+    .column p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+    }
+    
+    .number {
+    display: block;
+    font-size: 2.5rem;
+    color: #0077c0;
+    margin-bottom: 10px;
+    }
+
+
+/* Estilos para la sección de datos personales */
+section {
+    margin-top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="tel"],
+  input[type="search"],
+  input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .radio-buttons {
+    display: flex;
+  }
+  
+  .radio-buttons label {
+    margin-right: 10px;
+  }
+  
+  /* Estilos para la sección de búsqueda de pacientes */
+  .buscador {
+    margin-top: 50px;
+  }
+  
+  #buscador-paciente {
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Estilos para la sección de disponibilidad de horario */
+  .availability {
+    margin-top: 50px;
+  }
+  
+  .availability-schedule {
+    display: flex;
+  }
+  
+  .availability-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .availability-column:last-child {
+    margin-right: 0;
+  }
+  
+  .availability-column h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .availability-column ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .availability-column li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .time-slot {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .available {
+    background-color: #28a745;
+  }
+  
+  .unavailable {
+    background-color: #dc3545;
+  }
+  
